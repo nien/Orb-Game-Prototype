@@ -1,0 +1,47 @@
+<leveldata version="1">
+	<level name="1">
+	
+		<entity name="Hero" type="Avatar">
+			<position> 
+				<x>300</x>
+				<y>300</y>
+			</position>
+		</entity>
+
+		<entity name="Orb1" type="Orb">
+			<position> 
+				<x>150</x>
+				<y>200</y>
+			</position>
+		</entity>
+
+		<entity name="Orb2" type="Orb">
+			<position> 
+				<x>400</x>
+				<y>500</y>
+			</position>
+		</entity>
+
+		<entity name="Orb3" type="Orb">
+			<position> 
+				<x>375</x>
+				<y>800</y>
+			</position>
+		</entity>
+
+		<entity name="Orb4" type="Orb">
+			<position> 
+				<x>600</x>
+				<y>600</y>
+			</position>
+		</entity>
+
+		<entity name="Orb5" type="Orb">
+			<position> 
+				<x>700</x>
+				<y>500</y>
+			</position>
+		</entity>
+
+	</level>
+</leveldata>
