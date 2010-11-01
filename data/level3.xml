@@ -1,25 +1,18 @@
 <leveldata version="1">
-	<level name="1">
+	<level name="3">
 	
-		<!--  
 		<entity name="Hero" type="Avatar">
 			<position> 
-				<x>800</x>
-				<y>600</y>
+				<x>100</x>
+				<y>100</y>
 			</position>
 		</entity>
-		-->
 
 		<entity name="Orb1" type="Orb">
 			<position> 
-				<x>150</x>
-				<y>200</y>
+				<x>300</x>
+				<y>400</y>
 			</position>
-			<velocity> 
-				<x>0</x>
-				<y>2</y>
-			</velocity>
-
 		</entity>
 
 		<entity name="Orb2" type="Orb">
@@ -27,37 +20,25 @@
 				<x>400</x>
 				<y>500</y>
 			</position>
-
-			<velocity> 
-				<x>-2</x>
-				<y>-2</y>
-			</velocity>
-
 		</entity>
 
 		<entity name="Orb3" type="Orb">
 			<position> 
-				<x>600</x>
-				<y>600</y>
+				<x>800</x>
+				<y>300</y>
 			</position>
-
-			<velocity> 
-				<x>2</x>
-				<y>2</y>
-			</velocity>
 		</entity>
 
-		<entity name="Orb4	" type="Orb">
+
+
+		<entity name="Timer1" type="Timer">
 			<position> 
-				<x>700</x>
-				<y>500</y>
+				<x>975</x>
+				<y>725</y>
 			</position>
-			<velocity> 
-				<x>2</x>
-				<y>0</y>
-			</velocity>
-
+			<time>100</time>
 		</entity>
+
 
 	</level>
 </leveldata>

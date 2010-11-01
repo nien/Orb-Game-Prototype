@@ -1,0 +1,37 @@
+<leveldata version="1">
+	<level name="2">
+	
+		<entity name="Hero" type="Avatar">
+			<position> 
+				<x>100</x>
+				<y>100</y>
+			</position>
+		</entity>
+
+		<entity name="Orb1" type="Orb">
+			<position> 
+				<x>150</x>
+				<y>200</y>
+			</position>
+		</entity>
+
+		<entity name="Orb2" type="Orb">
+			<position> 
+				<x>600</x>
+				<y>600</y>
+			</position>
+		</entity>
+
+
+
+		<entity name="Timer1" type="Timer">
+			<position> 
+				<x>975</x>
+				<y>725</y>
+			</position>
+			<time>100</time>
+		</entity>
+
+
+	</level>
+</leveldata>

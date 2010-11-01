@@ -23,6 +23,12 @@ public class GameEntity
 		velocity = new PVector();
 	}
 
+	public void setVelocity(float x, float y) 
+	{
+		velocity.x = x;
+		velocity.y = y;
+	}
+	
 	
 	public void setPosition(float x, float y) 
 	{
@@ -30,6 +36,24 @@ public class GameEntity
 		position.y = y;
 	}
 
+	
+	public PVector getPosition() 
+	{
+		return position;
+	}
+
+	
+	public float getX() 
+	{
+		return position.x;
+	}
+
+	public float getY() 
+	{
+		return position.y;
+	}
+
+	
 	
 	public String getEntityName()
 	{
@@ -41,6 +65,10 @@ public class GameEntity
 	{
 		parent.pushMatrix();
 		parent.translate(position.x, position.y);
+		
+		//if (OrbGamePrototype.levelStart)
+		position.add(velocity);
+		
 		entity.draw(parent);
 		parent.popMatrix();
 	}
